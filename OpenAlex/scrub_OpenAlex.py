@@ -95,12 +95,12 @@ def save_to_csv(papers, filename="openalex_results.csv"):
 
 if __name__ == "__main__":
 
-    query = "artificial intelligence machine learning chatbot intelligent tutoring system education K-12 students learning"
-   # \
-   # \
-   # AND ( \
-    #title.search: ("learn*" OR "student*")\
-    #)'
+    query = (
+        '"artificial intelligence" OR "intelligent support" OR "AI" OR "chatbot" '
+        'OR "intelligent tutoring system" OR "personal tutor" OR "intelligent agent" '
+        'OR "expert system" OR "AI tools" OR "AI literacy" '
+        'AND "K-12" OR school OR education OR teaching'
+    )
 
     papers = search_openalex(
         query,

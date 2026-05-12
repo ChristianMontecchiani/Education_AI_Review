@@ -29,7 +29,7 @@ MANIFEST
 
 # Virtual environments
 my_env/
-ACM/
+*.txt
 
 # PyInstaller
 #   Usually these files are written by a python script from a template
