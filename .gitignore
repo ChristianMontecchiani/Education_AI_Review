@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+*.csv
 
 # Distribution / packaging
 .Python
@@ -25,6 +26,10 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+# Virtual environments
+my_env/
+ACM/
 
 # PyInstaller
 #   Usually these files are written by a python script from a template
